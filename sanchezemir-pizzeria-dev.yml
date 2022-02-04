@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: sanchezemir-pizzeria
+
+########## MYSQL #################
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/pizzeria_ec_final
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
